@@ -9,7 +9,7 @@ def translate_text(text, target_lang):
     return GoogleTranslator(source='auto', target=target_lang).translate(text)
 
 # Client details
-HOST = ''  
+HOST = '3.136.97.57'
 PORT = 5000        
 
 class ChatClient:
